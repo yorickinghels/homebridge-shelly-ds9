@@ -1,7 +1,7 @@
 import {
   ShellyProDualCoverPm,
   ShellyProDualCoverPmRev1,
-} from 'shellies-ds9';
+} from '@yorick1245/shellies-ds9';
 
 import { DeviceDelegate } from './base';
 
