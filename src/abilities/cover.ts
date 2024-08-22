@@ -1,5 +1,5 @@
 import { CharacteristicValue } from 'homebridge';
-import { Cover } from 'shellies-ds9';
+import { Cover } from '@yorick1245/shellies-ds9';
 
 import { Ability, ServiceClass } from './base';
 
@@ -12,6 +12,7 @@ const names = {
 export class CoverAbility extends Ability {
   /**
    * @param component - The cover component to control.
+   * @param type
    */
   constructor(readonly component: Cover, readonly type: 'door' | 'window' | 'windowCovering' = 'window') {
     super(
